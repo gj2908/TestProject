@@ -44,5 +44,3 @@ A starter testing project for JavaScript (ES6), Vue.js, Quasar Framework, and Ap
   ```bash
   cordova platform add android
   ```
-
-## Project Structure (example)
