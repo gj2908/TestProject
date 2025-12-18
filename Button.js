@@ -1,12 +1,7 @@
-// Simple output
-console.log("Hello, World!");
+// Change webpage content dynamically
+document.getElementById("demo").innerHTML = "Hello, JavaScript!";
 
-// Alert popup
-alert("Welcome to JavaScript!");
-
-// Prompt user input
-let name = prompt("What's your name?");
-console.log(`Hello, ${name}!`);
-
-// Simple calculation
-console.log(5 + 3 * 2); // 11
+// Handle a button click
+document.querySelector("button").addEventListener("click", () => {
+  alert("Button clicked!");
+});
