@@ -1,4 +1,13 @@
 {
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A simple Vue.js to-do app",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "test": "echo \"Tests not yet configured\""
+  },
   "dependencies": {
     "link": "^2.1.1",
     "test": "^3.3.0"
